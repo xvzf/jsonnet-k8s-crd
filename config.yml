@@ -1,0 +1,15 @@
+specs:
+
+# GKE istio
+- output: 'istio/1.7'
+  openapi: http://localhost:8001/openapi/v2
+  prefix: io.istio.
+  patchDir: _custom/istio
+  extensionDir: _extensions/istio
+
+# GKE config connector
+- output: 'cnrm/1.20.1'
+  openapi: http://localhost:8001/openapi/v2
+  prefix: com.google.cloud.cnrm.
+  patchDir: _custom/cnrm
+  extensionDir: _extensions/cnrm
