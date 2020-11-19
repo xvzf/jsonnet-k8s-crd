@@ -325,7 +325,7 @@ The name of a subset within the service.
 
 ## obj spec.outboundTrafficPolicy.egressProxy.port
 
-
+Specifies the port on the host that is being addressed.
 
 ### fn spec.outboundTrafficPolicy.egressProxy.port.withNumber
 

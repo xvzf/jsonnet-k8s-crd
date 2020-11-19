@@ -293,7 +293,7 @@ withIngressMixin(ingress)
 
 ## obj spec.outboundTrafficPolicy
 
-Configuration for the outbound traffic policy.
+
 
 ### fn spec.outboundTrafficPolicy.withMode
 

@@ -275,7 +275,7 @@ Optional.
 
 ## obj spec.selector
 
-
+Optional.
 
 ### fn spec.selector.withMatchLabels
 

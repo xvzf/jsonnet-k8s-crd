@@ -13,5 +13,6 @@ Generated Kubernetes library
 ## Subpackages
 
 * [config](config.md)
+* [install](install.md)
 * [networking](networking.md)
 * [security](security.md)

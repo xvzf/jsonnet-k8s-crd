@@ -370,7 +370,7 @@ Traffic policies specific to individual ports.
 
 ## obj spec.trafficPolicy.connectionPool.http
 
-HTTP connection pool settings.
+
 
 ### fn spec.trafficPolicy.connectionPool.http.withH2UpgradePolicy
 
@@ -442,7 +442,7 @@ Maximum number of HTTP1 /TCP connections to a destination host.
 
 ## obj spec.trafficPolicy.connectionPool.tcp.tcpKeepalive
 
-
+If set then set SO_KEEPALIVE on the socket to enable TCP Keepalives.
 
 ### fn spec.trafficPolicy.connectionPool.tcp.tcpKeepalive.withInterval
 
@@ -470,7 +470,7 @@ withTime(time)
 
 ## obj spec.trafficPolicy.loadBalancer
 
-Settings controlling the load balancer algorithms.
+
 
 ### fn spec.trafficPolicy.loadBalancer.withSimple
 
@@ -518,7 +518,7 @@ Hash based on the source IP address.
 
 ## obj spec.trafficPolicy.loadBalancer.consistentHash.httpCookie
 
-
+Hash based on HTTP cookie.
 
 ### fn spec.trafficPolicy.loadBalancer.consistentHash.httpCookie.withName
 
@@ -654,7 +654,7 @@ withMinHealthPercent(minHealthPercent)
 
 ## obj spec.trafficPolicy.tls
 
-TLS related settings for connections to the upstream service.
+
 
 ### fn spec.trafficPolicy.tls.withCaCertificates
 

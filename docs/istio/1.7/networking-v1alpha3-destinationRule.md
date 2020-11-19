@@ -518,7 +518,7 @@ Hash based on the source IP address.
 
 ## obj spec.trafficPolicy.loadBalancer.consistentHash.httpCookie
 
-Hash based on HTTP cookie.
+
 
 ### fn spec.trafficPolicy.loadBalancer.consistentHash.httpCookie.withName
 

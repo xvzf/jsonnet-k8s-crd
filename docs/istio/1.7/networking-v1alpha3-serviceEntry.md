@@ -384,7 +384,7 @@ withSubjectAltNamesMixin(subjectAltNames)
 
 ## obj spec.workloadSelector
 
-Applicable only for MESH_INTERNAL services.
+
 
 ### fn spec.workloadSelector.withLabels
 
