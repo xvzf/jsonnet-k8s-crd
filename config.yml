@@ -6,8 +6,8 @@ specs:
   prefix: io.istio.
   patchDir: _custom/istio
   extensionDir: _extensions/istio
-  excludes:
-  - io.istio.config.
+  exclude:
+  - io.istio.install
 
 # GKE config connector
 - output: 'cnrm/1.20.1'

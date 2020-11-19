@@ -470,7 +470,7 @@ withTime(time)
 
 ## obj spec.trafficPolicy.loadBalancer
 
-Settings controlling the load balancer algorithms.
+
 
 ### fn spec.trafficPolicy.loadBalancer.withSimple
 
@@ -654,7 +654,7 @@ withMinHealthPercent(minHealthPercent)
 
 ## obj spec.trafficPolicy.tls
 
-TLS related settings for connections to the upstream service.
+
 
 ### fn spec.trafficPolicy.tls.withCaCertificates
 

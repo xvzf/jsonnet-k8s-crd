@@ -266,7 +266,7 @@ Define the list of JWTs that can be validated at the selected workloads' proxy.
 
 ## obj spec.selector
 
-
+The selector determines the workloads to apply the RequestAuthentication on.
 
 ### fn spec.selector.withMatchLabels
 

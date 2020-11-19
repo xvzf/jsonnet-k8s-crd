@@ -370,7 +370,7 @@ Traffic policies specific to individual ports.
 
 ## obj spec.trafficPolicy.connectionPool.http
 
-
+HTTP connection pool settings.
 
 ### fn spec.trafficPolicy.connectionPool.http.withH2UpgradePolicy
 
@@ -518,7 +518,7 @@ Hash based on the source IP address.
 
 ## obj spec.trafficPolicy.loadBalancer.consistentHash.httpCookie
 
-Hash based on HTTP cookie.
+
 
 ### fn spec.trafficPolicy.loadBalancer.consistentHash.httpCookie.withName
 
