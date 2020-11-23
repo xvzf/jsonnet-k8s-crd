@@ -14,6 +14,8 @@
   firestore:: (import '_gen/firestore/main.libsonnet'),
   iam:: (import '_gen/iam/main.libsonnet'),
   kms:: (import '_gen/kms/main.libsonnet'),
+  logging:: (import '_gen/logging/main.libsonnet'),
+  monitoring:: (import '_gen/monitoring/main.libsonnet'),
   pubsub:: (import '_gen/pubsub/main.libsonnet'),
   redis:: (import '_gen/redis/main.libsonnet'),
   resourcemanager:: (import '_gen/resourcemanager/main.libsonnet'),

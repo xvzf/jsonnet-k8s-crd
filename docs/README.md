@@ -9,5 +9,5 @@ specification (`swagger.json`) of the Kubernetes API.
 
 Currently, artifacts for the following CRDs are created:
 
-- [cnrm-1.20.1](cnrm/1.20.1/README.md)
-- [istio-1.7](istio/1.7/README.md)
+- [cnrm-1.30.0](cnrm/1.30.0/README.md)
+- [istio-1.7.3](istio/1.7.3/README.md)
