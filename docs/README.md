@@ -11,3 +11,4 @@ Currently, artifacts for the following CRDs are created:
 
 - [cnrm-1.30.0](cnrm/1.30.0/README.md)
 - [istio-1.7.3](istio/1.7.3/README.md)
+- [tekton-0.18.1](tekton/0.18.1/README.md)
